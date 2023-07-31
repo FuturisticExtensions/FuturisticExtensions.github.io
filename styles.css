@@ -21,7 +21,7 @@ header {
     display: grid;
     place-items: center;
     grid-template-rows: 1fr;
-    background-image: url(background.jpg);
+    background-image: url('https://github.com/Ascoding2022/Ascoding2022.github.io/blob/main/background.jpg?raw=true');
     color: black;
 }
 
