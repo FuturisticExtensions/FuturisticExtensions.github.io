@@ -32,3 +32,16 @@ body {
     border: 3px solid black;
     overflow: hidden;
 }
+
+.btn {
+    display: inline-block;
+    background: rgb(150, 142, 125);
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    height: 6vh;
+    width: 17vw;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 600;
+}
