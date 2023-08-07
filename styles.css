@@ -34,14 +34,19 @@ body {
 }
 
 .btn {
-    display: inline-block;
+    display: block;
     background: rgb(150, 142, 125);
     cursor: pointer;
     color: white;
     border: 2px solid white;
-    height: 6vh;
-    width: 17vw;
+    height: 40px;
+    width: 220px;
     font-size: large;
     text-transform: uppercase;
     font-weight: 600;
+    margin: 3px;
+}
+
+.buttons {
+    text-align: center;
 }
