@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif;
-    text-align: center;
     background: #f1f5f8;
 }
 
@@ -15,7 +14,6 @@ body {
     background: #eaf5fe;
     color: #6db1ea;
     font-weight: bold;
-    margin: 5px;
 }
 
 h1 {
@@ -23,8 +21,4 @@ h1 {
     letter-spacing: 2px;
     font-size: 36px;
     margin-bottom: 30px;
-}
-
-#buttons {
-    display: flex;
 }
