@@ -1,0 +1,30 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+.grid {
+    width: 315px;
+    height: 315px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    font-size: 100px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.box:hover {
+    background: lightgray;
+}
+
+.gameOverBox {
+    font-size: 30px;
+}

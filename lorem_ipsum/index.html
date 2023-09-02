@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Lorem Impsum Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>TIRED OF BORING LOREM IMPSUM?</h1>
+    <h4>Paragraphs:
+    <input id="paragraphs" type="number"> 
+    <button onclick="generate()">Generate</button>
+    </h4>
+
+    <div data-lorem="1p" id="p1"></div>
+    <div data-lorem="1p" id="p2"></div>
+    <div data-lorem="1p" id="p3"></div>
+    <div data-lorem="1p" id="p4"></div>
+    <div data-lorem="1p" id="p5"></div>
+
+    <script src="lorem.js"></script>
+
+    <script>
+        document.getElementById('p1').style.display = 'none';
+        document.getElementById('p2').style.display = 'none';
+        document.getElementById('p3').style.display = 'none';
+        document.getElementById('p4').style.display = 'none';
+        document.getElementById('p5').style.display = 'none';
+        function generate() {
+            if (document.getElementById('p1').innerText === 'Limit is 5 paragraphs') {
+                location.reload();
+            }
+
+            if (document.getElementById('paragraphs').value * 1 > 5) {
+                document.getElementById('p1').style.display = 'block';
+                document.getElementById('p1').innerText = 'Limit is 5 paragraphs';
+                document.getElementById('p2').innerText = '';
+                document.getElementById('p3').innerText = '';
+                document.getElementById('p4').innerText = '';
+                document.getElementById('p5').innerText = '';
+            } else {
+                if (document.getElementById('paragraphs').value * 1 > 0) {
+                document.getElementById('p1').style.display = 'block';
+                }
+                if (document.getElementById('paragraphs').value * 1 > 1) {
+                    document.getElementById('p2').style.display = 'block';
+                }
+                if (document.getElementById('paragraphs').value * 1 > 2) {
+                    document.getElementById('p3').style.display = 'block';
+                }
+                if (document.getElementById('paragraphs').value * 1 > 3) {
+                    document.getElementById('p4').style.display = 'block';
+                }
+                if (document.getElementById('paragraphs').value * 1 > 4) {
+                    document.getElementById('p5').style.display = 'block';
+                }
+            }
+        }
+    </script>
+</body>
+</html>

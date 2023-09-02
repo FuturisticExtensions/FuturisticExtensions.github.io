@@ -1,0 +1,41 @@
+body {
+    background-color: red;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    height: 30px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+div {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#bgColor {
+    color: rgb(159, 196, 233);
+}
