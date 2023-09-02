@@ -97,3 +97,17 @@ textarea {
 img {
     width: 50vw;
 }
+
+.contactsubmit {
+    display: block;
+    background: rgb(150, 142, 125);
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    height: 40px;
+    width: 120px;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 3px;
+}
