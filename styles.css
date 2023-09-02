@@ -23,6 +23,7 @@ body {
 .jobtext {
     font-size: large;
     font-weight: 600;
+    width: 300px;
 }
 
 .picture {
@@ -48,5 +49,51 @@ body {
 }
 
 .buttons {
+    display: grid;
+    place-items: center;
+    row-gap: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    display: block;
+    background: whitesmoke;
+    border: 2px solid white;
+    height: 40px;
+    width: 50vw;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 3px;
     text-align: center;
+    padding-top: 1;
+    padding-bottom: 1px;
+}
+
+textarea {
+    display: block;
+    background: whitesmoke;
+    border: 2px solid white;
+    height: 100px;
+    width: 50vw;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 3px;
+    text-align: center;
+    padding-top: 1;
+    padding-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit {
+    margin-bottom: 35px;
+}
+
+img {
+    width: 50vw;
 }
